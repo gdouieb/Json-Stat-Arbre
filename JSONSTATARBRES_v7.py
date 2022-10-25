@@ -114,14 +114,14 @@ titreGraph=" "
 
 
 #Lecture des fichiers CSV
-path = r"D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\new_arbres.csv"
-new_df = pandas.read_csv(r"D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\new_arbres.csv", sep = ',', header = 0)
-arr_df = pandas.read_csv(r"D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\arrondissements.csv", sep = ';', header = 0)
-arr_departement = pandas.read_csv(r"D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\departements-et-collectivites-doutre-mer-france.csv", sep = ';', header = 0)
+path = r"data\new_arbres.csv"
+new_df = pandas.read_csv(r"data\new_arbres.csv", sep = ',', header = 0)
+arr_df = pandas.read_csv(r"data\arrondissements.csv", sep = ';', header = 0)
+arr_departement = pandas.read_csv(r"data\departements-et-collectivites-doutre-mer-france.csv", sep = ';', header = 0)
 
 # Fichiers Image
-imgArbre = PIL.Image.open("D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\ImgArbre.png")
-imgFeuille = PIL.Image.open("D:\Manu\FORMATIONS\PYTHON\JsonStatArbres\ImgFeuille.png")
+imgArbre = PIL.Image.open("static\ImgArbre.png")
+imgFeuille = PIL.Image.open("static\ImgFeuille.png")
 
 # google api KEY
 
