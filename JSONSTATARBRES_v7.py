@@ -200,7 +200,7 @@ def affiche_map(marqueurs = {},zone = []):
                 #on a bien un dictionnaire avec des valeur en listes
             map_widget.set_polygon(polygo, name = "TTESTT")
 
-#MANU
+
 '''
 def AfficheframeCanvas():
     ## Pack la frameCanvas dans frameGraph
@@ -213,7 +213,7 @@ def AfficheframeCanvas():
 
 '''
 
-#SEB
+
 def AfficheframeCanvas():
     ## Pack la frameCanvas dans frameGraph pour afficher le graphique
     global f, frameCanvas
@@ -227,7 +227,6 @@ def AfficheframeCanvas():
     canvas.get_tk_widget().pack()
 
 
-#MANU
 '''
 def AfficheframeLabelText():
     ## Pack la frameLabelText dans frameReponseTexte
@@ -238,7 +237,6 @@ def AfficheframeLabelText():
     frameLabelText.place(relx=.5, rely=.5,anchor= CENTER)
 '''
 
-#SEB
 def AfficheframeLabelText():
     ## Pack la frameLabelText dans frameReponseTexte pour afficher la reponse texte
     global answer, frameLabelText, frameLabelImage
@@ -1796,7 +1794,6 @@ def mapFenetre():
 
 
 
-# SEB
 mainFenetre = Tk()
 mainFenetre.title('JSON STAT ARBRES')
 mainFenetre.geometry('1200x790')
